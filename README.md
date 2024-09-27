@@ -2,9 +2,9 @@
 tool reading file mt940
 
 
-python .\mt940.py {dir}
+python .\mt940-reader.py {dir}
 ```
-python .\mt940.py D:\MT940\\BMRI\Juli\
+python .\mt940-reader.py D:\MT940\\BMRI\Juli\
 ```
 ------------------
 
