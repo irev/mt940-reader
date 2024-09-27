@@ -35,9 +35,9 @@ def parse_mt940_files(directory):
                     if matches:    
                         print(f"matches :61: {matches[1]} status:{matches[2]} amount:{matches[3]} code:{matches[4]}")
                         amount = float(matches[3].replace(',', '.'))
-                        if matches[2] == 'C':  # CREDIT
+                        if matches[2] == 'C'  or matches[2] == 'CR':  # CREDIT  ( BNI use  CR ) 
                             transactions['case_in'] += amount
-                        elif matches[2] == 'D':  # DEBIT
+                        elif matches[2] == 'D'  or matches[2] == 'CR':  # DEBIT ( BNI use CR )
                             transactions['case_out'] += amount
     return transactions
 
