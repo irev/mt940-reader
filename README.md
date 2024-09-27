@@ -1,7 +1,7 @@
 # mt940-reader
 tool reading file mt940
 
-3\. MT940 File
+MT940 File
 
 
 ------------------
