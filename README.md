@@ -1,6 +1,9 @@
 # mt940-reader
 tool reading file mt940
 
+```
+python .\mt940.py D:\MT940\\BMRI\Juli\
+```
 ------------------
 
 MT940 File
