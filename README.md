@@ -1,6 +1,8 @@
 # mt940-reader
 tool reading file mt940
-
+```
+pip instal -r requirements.txt
+```
 
 python .\mt940-reader.py {dir}
 ```
